@@ -19,9 +19,9 @@ steps:
   - name: publish
     image: plugins/docker
     settings:
-      repo: 72haja/calculator
+      repo: jakobhaag1994/calculator
       username: 
         from_secret: dockerhub_user
       password:
-        from:secret: dockerhub_token
+        from_secret: dockerhub_token
 
